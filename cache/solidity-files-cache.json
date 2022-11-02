@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/viktor/Documents/web3/hardhat-smartcontract-lottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1667109170860,
-      "contentHash": "30353bd606e518c3d1106232d0b7ec6e",
+      "lastModificationDate": 1667281540455,
+      "contentHash": "6d1fb12423e8cc521ffeb85eb7a0ebac",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
         "version": "0.8.7",
