@@ -2,11 +2,55 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/viktor/Documents/web3/hardhat-smartcontract-lottery/contracts/Raffle.sol": {
-      "lastModificationDate": 1667281540455,
-      "contentHash": "6d1fb12423e8cc521ffeb85eb7a0ebac",
+      "lastModificationDate": 1667445578005,
+      "contentHash": "6bf74c09e9ccf386cc8c9a5dea5fc7a3",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
-        "version": "0.8.7",
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Raffle"
+      ]
+    },
+    "/home/viktor/Documents/web3/hardhat-smartcontract-lottery/node_modules/@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol": {
+      "lastModificationDate": 1667443955346,
+      "contentHash": "eb9cc526ef59dfc4d644f56ddca0633a",
+      "sourceName": "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -37,10 +81,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">=0.7.0 <0.9.0"
+        "^0.8.4"
       ],
       "artifacts": [
-        "Raffle"
+        "VRFConsumerBaseV2"
       ]
     }
   }
